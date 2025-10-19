@@ -1,0 +1,29 @@
+    @startuml
+
+    !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+
+    title Хранилище
+
+    Person(user, "пользователь")
+
+    System_Boundary(domains, "домены") {
+        Container(domain_apps, "Приложения доменов")
+    }
+
+    System_Boundary(store, "Хранилище") {
+        Container(superset, "Apache Superset")
+        Container(kafka, "Apache Kafka")
+        Container(spark, "Apache Spark")
+        Container(iceberg, "Apache Iceberg")
+        Container(trino, "Trino")
+    }
+
+    Rel(kafka, spark, "передача данных")
+    Rel(spark, iceberg, "запись данных")
+    Rel(superset, trino, "передача запроса")
+    Rel(trino, iceberg, "выполнение запроса")
+    Rel(user, superset, "запрос данных")
+    Rel(domain_apps, kafka, "отправка данных")
+
+    @enduml
