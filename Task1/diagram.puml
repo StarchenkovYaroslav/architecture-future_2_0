@@ -1,0 +1,46 @@
+@startuml
+
+!define C4P https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master
+!include C4P/C4_Container.puml
+
+Person(user, "пользователь")
+
+System_Boundary(domains, "домены") {
+    Container(domain_apps, "Приложения доменов")
+}
+
+Container(bus, "Apache Camel")
+
+System_Boundary(dataplatform, Dataplatform) {
+    System_Boundary(lakehouse, Lakehouse) {
+        Container(dremio, "Dremio", "Dremio")
+        Container(nessie, "Nessie")
+        Container(s3, "S3 iceberg")
+        Container(superset, "Apache Superset")
+        Container(iam, "Keycloak")
+    }
+
+    System_Boundary(dwhcontainer, dwh) {
+        Container(dwh, "SQL server")
+    }
+
+
+    Container(sync, "Airflow + Apache Spark")
+}
+
+Rel(domains, bus, "передача данных")
+Rel(bus, nessie, "передача данных")
+Rel(bus, dwh, "передача данных")
+
+Rel(dremio, s3, "выполнение запроса")
+Rel(nessie, s3, "сохранение данных")
+
+Rel(dwh, sync, "выгрузка из dwh")
+Rel(sync, s3, "сохранение данных")
+
+Rel(superset, dremio, "передача запроса")
+
+Rel(superset, iam, "авторизация")
+
+Rel(user, superset, "запрос данных")
+@enduml

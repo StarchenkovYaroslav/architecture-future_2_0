@@ -1,0 +1,127 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/28.1.2 Chrome/138.0.7204.243 Electron/37.4.0 Safari/537.36" version="28.1.2">
+  <diagram name="Страница — 1" id="rdKdpH01_m1dxHrm1eoD">
+    <mxGraphModel dx="1209" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="nNQ3ZCO-I1nWqB5rwM76-1" target="nNQ3ZCO-I1nWqB5rwM76-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-19" value="Данные пользователей" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nNQ3ZCO-I1nWqB5rwM76-14" vertex="1" connectable="0">
+          <mxGeometry x="-0.734" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-1" value="Домен пользователей" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="320" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="nNQ3ZCO-I1nWqB5rwM76-2" target="nNQ3ZCO-I1nWqB5rwM76-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-20" value="Данные ИИ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nNQ3ZCO-I1nWqB5rwM76-15" vertex="1" connectable="0">
+          <mxGeometry x="-0.5033" y="-3" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-2" value="Домен ИИ" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nNQ3ZCO-I1nWqB5rwM76-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-21" value="Финансовые данные&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nNQ3ZCO-I1nWqB5rwM76-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.7316" y="-6" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-3" value="Домен финансов" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="nNQ3ZCO-I1nWqB5rwM76-4" target="nNQ3ZCO-I1nWqB5rwM76-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-18" value="Учет персонала" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nNQ3ZCO-I1nWqB5rwM76-13" vertex="1" connectable="0">
+          <mxGeometry x="-0.7244" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-4" value="Домен персонала" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="150" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nNQ3ZCO-I1nWqB5rwM76-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-22" value="Учет оборудования" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nNQ3ZCO-I1nWqB5rwM76-17" vertex="1" connectable="0">
+          <mxGeometry x="-0.7819" y="-4" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-5" value="Домен инвентаризации" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="820" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nNQ3ZCO-I1nWqB5rwM76-11" target="nNQ3ZCO-I1nWqB5rwM76-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-32" value="Учет перcонала" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nNQ3ZCO-I1nWqB5rwM76-27" vertex="1" connectable="0">
+          <mxGeometry x="0.7968" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nNQ3ZCO-I1nWqB5rwM76-11" target="nNQ3ZCO-I1nWqB5rwM76-23" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-33" value="Данные пользователей" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nNQ3ZCO-I1nWqB5rwM76-28" vertex="1" connectable="0">
+          <mxGeometry x="0.7267" y="1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nNQ3ZCO-I1nWqB5rwM76-11" target="nNQ3ZCO-I1nWqB5rwM76-24" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-34" value="Данные ИИ" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nNQ3ZCO-I1nWqB5rwM76-29" vertex="1" connectable="0">
+          <mxGeometry x="0.4711" y="-1" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nNQ3ZCO-I1nWqB5rwM76-11" target="nNQ3ZCO-I1nWqB5rwM76-25" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-35" value="Финансовые данные" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nNQ3ZCO-I1nWqB5rwM76-30" vertex="1" connectable="0">
+          <mxGeometry x="0.7019" y="2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" parent="1" source="nNQ3ZCO-I1nWqB5rwM76-11" target="nNQ3ZCO-I1nWqB5rwM76-26" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-36" value="Учет оборудования" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="nNQ3ZCO-I1nWqB5rwM76-31" vertex="1" connectable="0">
+          <mxGeometry x="0.838" y="2" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-11" value="Платформа данных" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-12" value="HR" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="190" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-23" value="Клиентолог" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="340" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-24" value="Обучатель ML" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="525" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-25" value="Финансовый аналитик" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="685" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nNQ3ZCO-I1nWqB5rwM76-26" value="Завхоз" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="865" y="30" width="30" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
