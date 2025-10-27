@@ -1,29 +1,46 @@
-    @startuml
+@startuml
 
-    !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!define C4P https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master
+!include C4P/C4_Container.puml
 
+Person(user, "пользователь")
 
-    title Хранилище
+System_Boundary(domains, "домены") {
+    Container(domain_apps, "Приложения доменов")
+}
 
-    Person(user, "пользователь")
+Container(bus, "Apache Camel")
 
-    System_Boundary(domains, "домены") {
-        Container(domain_apps, "Приложения доменов")
-    }
-
-    System_Boundary(store, "Хранилище") {
+System_Boundary(dataplatform, Dataplatform) {
+    System_Boundary(lakehouse, Lakehouse) {
+        Container(dremio, "Dremio", "Dremio")
+        Container(nessie, "Nessie")
+        Container(s3, "S3 iceberg")
         Container(superset, "Apache Superset")
-        Container(kafka, "Apache Kafka")
-        Container(spark, "Apache Spark")
-        Container(iceberg, "Apache Iceberg")
-        Container(trino, "Trino")
+        Container(iam, "Keycloak")
     }
 
-    Rel(kafka, spark, "передача данных")
-    Rel(spark, iceberg, "запись данных")
-    Rel(superset, trino, "передача запроса")
-    Rel(trino, iceberg, "выполнение запроса")
-    Rel(user, superset, "запрос данных")
-    Rel(domain_apps, kafka, "отправка данных")
+    System_Boundary(dwhcontainer, dwh) {
+        Container(dwh, "SQL server")
+    }
 
-    @enduml
+
+    Container(sync, "Airflow + Apache Spark")
+}
+
+Rel(domains, bus, "передача данных")
+Rel(bus, nessie, "передача данных")
+Rel(bus, dwh, "передача данных")
+
+Rel(dremio, s3, "выполнение запроса")
+Rel(nessie, s3, "сохранение данных")
+
+Rel(dwh, sync, "выгрузка из dwh")
+Rel(sync, s3, "сохранение данных")
+
+Rel(superset, dremio, "передача запроса")
+
+Rel(superset, iam, "авторизация")
+
+Rel(user, superset, "запрос данных")
+@enduml
